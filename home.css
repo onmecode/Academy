@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2016, 6:07:20 PM
+    Author     : Ema
+*/#logo{
+            width: 150px;
+            padding:10px;
+            marging:0px auto 0px auto;
+            border:1 px solid #0088dd; 
+            text-align: center;
+        }
+#page{
+            max-width: 1080px;
+            min-width: 960px;
+            margin: 10px auto 10px auto;
+            padding: 10px;
+            border:4px double #000;
+            background-color: #ffffff;}
+        
+#img{
+            width: 150px;
+            padding:10px;
+            marging:0px auto 0px auto;
+            border:1 px solid #0088dd; 
+            text-align: left;
+        }
+#img_article{
+            width:1000px;
+            padding:10px;
+            marging:0px auto 0px auto;
+            border:1 px solid #0088dd; 
+            text-align: center;
+        }        
+        p {
+    width: 900px;
+    text-align:justify;
+    font-family: 'AlteHaasGroteskRegular';
+    font-size: 16em;
+}
+article{
+    
+    text-align: justify;
+    color: black;
+    font-size: 12px;
+    font-family: 'arial';
+     
+     text-align: justify;
+}
+li{
+            display:inline;
+            margin: 2px 3px;
+           
+            border-left-style:  outset ;
+           
+        }
+  div {
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #ffffff;
+    padding: 10px 30px 30px 10px;
+     
+}
+
+td {
+            border:1px solid #0088dd;
+            padding: 10px;
+           
+        }
+        table.one{
+            empty-cells: show;
+        }
+        td {
+            align-content: center;
+            text-align: center;
+            border:1px solid #0088dd;
+            padding: 10px;
+            width: 200px;
+           
+        }
+        table.two{
+            empty-cells: show;
+        }
+        td {
+            align-content: center;
+            text-align: center;
+            border:1px solid #0088dd;
+            padding: 10px;
+            width: 200px;
+           
+        }
+
+

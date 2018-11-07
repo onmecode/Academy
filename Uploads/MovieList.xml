@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programmeList>
+<programme id="1">
+ <name>Alice in Wonderland</name>
+ <image>Alice_in_Wonderland.jpg</image>
+ <mood>Calm</mood>
+</programme>
+<programme id="2">
+ <name>7 Years in Tibet<name>
+ <image>Seven_Years_in_Tibet.jpg</image>
+ <mood>Agitated</mood>
+</programme>
+<programme id="3">
+ <name>Hugo</name>
+ <image>Hugo</image>
+ <mood>Happy</mood>
+</programme>
+<programme id="4">
+ <name>Bruce Almighty</name>
+ <image>images/Bruce_Almighty</image>
+ <mood>Sad</mood>
+</programme>
+<programme id="5">
+ <name>Finding Dory</name>
+ <image>images/Finding_Dory.jpg</image>
+ <mood>Tired</mood>
+</programme>
+<programme id="6">
+ <name>Imitation Game</name>
+ <image>images/Imitation_Game.jpg</image>
+ <mood>Wide Awake</mood>
+</programme>
+<programme id="7">
+ <name>The Theory of Everything</name>
+ <image>images/The_Theory_of_Everything.jpg</image>
+ <mood>Scared</mood>
+</programme>
+<programme id="8">
+ <name>Avatar</name>
+ <image>images/Avatar.jpg</image>
+ <mood>Fearless</mood>
+</programme>
+</programmelist>

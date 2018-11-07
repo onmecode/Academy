@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.2
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Oct 09, 2016 at 09:16 AM
+- Server version: 10.1.13-MariaDB
+- PHP Version: 7.0.5
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="academylibray2016" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="books">
+                CREATE TABLE `books` (
+                  `book_id` int(255) NOT NULL AUTO_INCREMENT,
+                  `title` varchar(500) NOT NULL,
+                  `author` varchar(250) NOT NULL,
+                  `programme` varchar(255) NOT NULL,
+                  `level` int(11) NOT NULL,
+                  `description` varchar(5000) NOT NULL,
+                  `image` mediumblob NOT NULL,
+                  PRIMARY KEY (`book_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'academylibray2016'
+    -->
+    <database name="academylibray2016">
+        <!-- Table books -->
+        <table name="books">
+            <column name="book_id"></column>
+            <column name="title">HTML&amp;CSS</column>
+            <column name="author">Joh Duckett</column>
+            <column name="programme">HTML&amp;CSS</column>
+            <column name="level">2</column>
+            <column name="description">Design and build website</column>
+            <column name="image">&lt;img src=&quot;images/HTML&amp;CSS.jpg&quot; alt=&quot;book 1 &quot; width=&quot;150&quot; height=&quot;150&quot;&gt;</column>
+        </table>
+        <table name="books">
+            <column name="book_id"></column>
+            <column name="title">Artificial Intellingence made easy</column>
+            <column name="author">Rob Cole &amp; Edward Scotcher</column>
+            <column name="programme">Javascirp </column>
+            <column name="level">2</column>
+            <column name="description">"This book will help you get started with this exiting language and
+              gives you  and idea of what is possible -Melchized B, from Amazon"</column>
+            <column name="image">&lt;img src=&quot;images/Artificial Intellingence made easy.jpg&quot; alt=&quot;AI&quot;width=&quot;150&quot; height=&quot;150&quot;/&gt;</column>
+        </table>
+        <table name="books">
+            <column name="book_id"></column>
+            <column name="title">HTML5</column>
+            <column name="author">Mike McGrath</column>
+            <column name="programme">HTML</column>
+            <column name="level">3</column>
+            <column name="description">Without doubt HTML5 is a fundamental tool of the web and this book reveals all you can achieve Now in the latest browsers......</column>
+            <column name="image">&lt;img src=&quot;images/HTML 5.jpg&quot; alt=&quot;HTML&quot;width=&quot;150&quot; height=&quot;150&quot;/&gt;</column>
+        </table>
+        <table name="books">
+            <column name="book_id"></column>
+            <column name="title">The code that can change people life.</column>
+            <column name="author">Emanuela Serra</column>
+            <column name="programme">ALL LANGUAGES</column>
+            <column name="level">3</column>
+            <column name="description">Speaking with Software Engineer that with their code can change the life of the people.
+In the book you can find one as Chiara Picardi speak about her life experience as coder for Medical Research</column>
+            <column name="image"> &lt;img src=&quot;images/PhDChiaraPicardi.jpg&quot; alt=&quot;&quot;width=&quot;150&quot; height=&quot;150&quot;/&gt;</column>
+        </table>
+        <table name="books">
+            <column name="book_id"></column>
+            <column name="title">Learn Php</column>
+            <column name="author">Steve Pretyman</column>
+            <column name="programme">PHP</column>
+            <column name="level">3</column>
+            <column name="description">Object-Oriented Modular Programming </column>
+            <column name="image"> &lt;img src=&quot;images/PhDChiaraPicardi.jpg&quot; alt=&quot;&quot;width=&quot;150&quot; height=&quot;150&quot;/&gt;</column>
+        </table>
+        <table name="books">
+            <column name="book_id"></column>
+            <column name="title">Head First JavaScript Programming</column>
+            <column name="author">a Brain-Friendly Guide</column>
+            <column name="programme">Javascript</column>
+            <column name="level">3</column>
+            <column name="description">An excellent introduction to programming combined withadvanced topics </column>
+            <column name="image"> &lt;img src=&quot;images/PhDChiaraPicardi.jpg&quot; alt=&quot;&quot;width=&quot;150&quot; height=&quot;150&quot;/&gt;</column>
+        </table>
+    </database>
+</pma_xml_export>
